@@ -1,8 +1,13 @@
-/** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme")
+
 module.exports = {
-  content: [],
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        mono: ["JetBrains Mono", ...defaultTheme.fontFamily.mono]
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 }
