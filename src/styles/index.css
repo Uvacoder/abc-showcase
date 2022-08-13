@@ -10,4 +10,8 @@
   body {
     @apply bg-white dark:bg-black text-black dark:text-white transition-all duration-200 ease-in-out;
   }
+
+  ::selection {
+    @apply bg-black text-white dark:bg-white dark:text-black;
+  }
 }
