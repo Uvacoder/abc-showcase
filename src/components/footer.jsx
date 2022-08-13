@@ -2,7 +2,7 @@ import { ReactComponent as Heart } from "~/assets/icon-heart.svg"
 
 export const Footer = () => {
   return (
-    <footer className="my-12 flex gap-4 text-sm items-center">
+    <footer className="py-12 flex gap-4 text-sm items-center">
       <span>Made with</span>
       <Heart className="text-rose-500 dark:text-sky-500 animate-beat" />{" "}
       <span>
