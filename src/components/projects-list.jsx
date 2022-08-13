@@ -6,7 +6,7 @@ export const ProjectsList = () => {
       {project.map(project => (
         <div
           key={project.title}
-          className="py-8 flex justify-between items-center"
+          className="py-8 flex justify-between items-center animate-appear-500"
         >
           <div className="flex flex-col gap-3 pr-6 overflow-hidden">
             <h2 className="font-bold text-lg md:text-base truncate">

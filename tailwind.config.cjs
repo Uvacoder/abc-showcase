@@ -11,10 +11,22 @@ module.exports = {
       keyframes: {
         beat: {
           to: { transform: "scale(1.1)" }
+        },
+        appear: {
+          "0%": {
+            transform: "translateY(50%)",
+            opacity: 0
+          },
+          "100%": {
+            transform: "translateY(0)",
+            opacity: 1
+          }
         }
       },
       animation: {
-        beat: "beat 1s ease-in-out infinite"
+        beat: "beat 1s ease-in-out infinite",
+        "appear-250": "appear 1000ms 250ms both",
+        "appear-500": "appear 1000ms 500ms both"
       }
     },
     screens: {
