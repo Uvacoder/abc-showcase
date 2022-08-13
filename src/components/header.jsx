@@ -4,7 +4,7 @@ import { ReactComponent as LogoFcc } from "~/assets/logo-fcc.svg"
 
 export const Header = () => {
   return (
-    <header className="py-12 flex justify-between">
+    <header className="pt-12 flex justify-between">
       <div className="flex gap-6 items-center">
         <LogoAp className="h-9 w-auto fill-rose-500 dark:fill-sky-500" />
         <span className="uppercase">x</span>
