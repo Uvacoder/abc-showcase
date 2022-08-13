@@ -6,9 +6,9 @@ export const Header = () => {
   return (
     <header className="pt-12 flex justify-between">
       <div className="flex gap-6 items-center">
-        <LogoAp className="h-9 w-auto fill-rose-500 dark:fill-sky-500" />
+        <LogoAp className="h-9 w-auto fill-rose-500 dark:fill-sky-500 md:h-6" />
         <span className="uppercase">x</span>
-        <LogoFcc className="h-9 w-auto fill-current" />
+        <LogoFcc className="h-9 w-auto fill-current md:h-6" />
       </div>
       <ThemeToggle />
     </header>

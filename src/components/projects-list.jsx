@@ -9,8 +9,10 @@ export const ProjectsList = () => {
           className="py-8 flex justify-between items-center"
         >
           <div className="flex flex-col gap-3 pr-6 overflow-hidden">
-            <h2 className="font-bold text-lg truncate">{project.title}</h2>
-            <h3 className="text-rose-500 dark:text-sky-500 text-sm truncate">
+            <h2 className="font-bold text-lg md:text-base truncate">
+              {project.title}
+            </h2>
+            <h3 className="text-rose-500 dark:text-sky-500 text-sm md:text-xs truncate">
               {project.path}
             </h3>
           </div>
@@ -19,7 +21,7 @@ export const ProjectsList = () => {
               <a
                 key={link.label}
                 href={link.url}
-                className="hover:text-rose-500 dark:hover:text-sky-500 hover:underline underline-offset-8"
+                className="hover:text-rose-500 dark:hover:text-sky-500 hover:underline underline-offset-8 md:text-sm"
               >
                 {link.label}
               </a>
