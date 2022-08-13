@@ -4,6 +4,7 @@ import svgr from "vite-plugin-svgr"
 import { resolve } from "path"
 
 export default defineConfig({
+  base: "/freecodecamp-showcase/",
   plugins: [react(), svgr()],
   resolve: {
     alias: {
