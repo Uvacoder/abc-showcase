@@ -14,4 +14,8 @@
   ::selection {
     @apply bg-black text-white dark:bg-white dark:text-black;
   }
+
+  #root {
+    @apply h-full relative;
+  }
 }
