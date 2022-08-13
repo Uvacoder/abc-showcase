@@ -4,17 +4,17 @@ import { ReactComponent as BlobBottomLeft } from "~/assets/blob-bottom-left.svg"
 
 export const App = () => {
   return (
-    <div className="max-w-3xl mx-auto px-6 h-full flex flex-col justify-between">
-      <BlobTopRight className="h-[300px] w-auto absolute top-0 right-0 text-rose-500 dark:text-sky-500 xl:h-[200px] lg:opacity-20" />
-      <div className="z-10">
+    <div className="max-w-3xl mx-auto ">
+      <BlobTopRight className="h-[300px] w-auto absolute top-0 right-0 text-rose-500 dark:text-indigo-500 xl:h-[200px] lg:opacity-20" />
+      <div className="relative z-10 min-h-screen h-full px-6 flex flex-col justify-between gap-24 md:gap-20">
         <Header />
-        <div className="flex flex-col gap-12 mt-24 md:mt-20 mb-12 md:mb-10">
+        <div className="flex flex-col gap-12">
           <Hero />
           <ProjectsList />
         </div>
         <Footer />
       </div>
-      <BlobBottomLeft className="h-[300px] w-auto absolute bottom-0 left-0 text-rose-500 dark:text-sky-500 xl:h-[200px] lg:opacity-20" />
+      <BlobBottomLeft className="h-[300px] w-auto absolute bottom-0 left-0 text-rose-500 dark:text-indigo-500 xl:h-[200px] lg:opacity-20" />
     </div>
   )
 }

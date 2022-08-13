@@ -20,7 +20,10 @@ export const ThemeToggle = () => {
   }, [theme, colorTheme])
 
   return (
-    <button onClick={handleTheme} className="hover:opacity-70">
+    <button
+      onClick={handleTheme}
+      className="hover:text-rose-500 dark:hover:text-indigo-500"
+    >
       {theme === "dark" ? <Moon /> : <Sun />}
     </button>
   )

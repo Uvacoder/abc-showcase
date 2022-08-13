@@ -16,6 +16,6 @@
   }
 
   #root {
-    @apply h-full relative;
+    @apply min-h-screen h-full relative;
   }
 }

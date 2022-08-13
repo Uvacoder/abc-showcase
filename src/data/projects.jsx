@@ -1,7 +1,7 @@
 export const project = [
   {
     title: "Survey Form",
-    path: "Responsive Web Design",
+    status: "Completed",
     links: [
       {
         label: "GitHub",
@@ -15,7 +15,7 @@ export const project = [
   },
   {
     title: "Tribute Page",
-    path: "Responsive Web Design",
+    status: "Completed",
     links: [
       {
         label: "GitHub",
@@ -29,7 +29,7 @@ export const project = [
   },
   {
     title: "Technical Documentation Page",
-    path: "Responsive Web Design",
+    status: "Completed",
     links: [
       {
         label: "GitHub",
@@ -43,7 +43,7 @@ export const project = [
   },
   {
     title: "Product Landign Page",
-    path: "Responsive Web Design",
+    status: "Completed",
     links: [
       {
         label: "GitHub",
@@ -57,7 +57,7 @@ export const project = [
   },
   {
     title: "Personal Portfolio Page",
-    path: "Responsive Web Design",
+    status: "Completed",
     links: [
       {
         label: "GitHub",
