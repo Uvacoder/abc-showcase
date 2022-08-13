@@ -8,9 +8,9 @@ export const ProjectsList = () => {
           key={project.title}
           className="py-8 flex justify-between items-center"
         >
-          <div className="flex flex-col gap-3">
-            <h2 className="font-bold text-lg">{project.title}</h2>
-            <h3 className="text-rose-500 dark:text-sky-500 text-sm">
+          <div className="flex flex-col gap-3 pr-6 overflow-hidden">
+            <h2 className="font-bold text-lg truncate">{project.title}</h2>
+            <h3 className="text-rose-500 dark:text-sky-500 text-sm truncate">
               {project.path}
             </h3>
           </div>
