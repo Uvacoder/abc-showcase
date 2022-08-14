@@ -1,6 +1,6 @@
 # freeCodeCamp Showcase
 
-This repo contains an showcase of all my certification projects I completed so far for freeCodeCamp. **Each project has his own repo**.
+This repo contains an showcase of all my certification projects I completed so far for [freeCodeCamp](https://www.freecodecamp.org/). **Each project has his own repo**.
 
 Check out the table below to navigate through each project.
 
