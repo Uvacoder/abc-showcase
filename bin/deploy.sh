@@ -10,7 +10,7 @@ npm run build
 cd dist
 
 git init
-git checkout main
+git checkout -b main
 git add -A
 git commit -m 'Deploy'
 git push -f git@github.com:alexperronnet/freecodecamp-showcase.git main:gh-pages
