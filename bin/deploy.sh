@@ -13,6 +13,6 @@ git init
 git checkout -b main
 git add -A
 git commit -m 'Deploy'
-git push -f git@github.com:alexperronnet/devchallenges-showcase.git main:gh-pages
+git push -f git@github.com:alexperronnet/freecodecamp-showcase.git main:gh-pages
 
 cd -
