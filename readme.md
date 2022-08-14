@@ -1,6 +1,6 @@
-# freeCodeCamp Showcase
+# devChallenges Showcase
 
-This repo contains an showcase of all my certification projects I completed so far for freeCodeCamp. **Each project has his own repo**.
+This repo contains an showcase of all my projects I completed so far for [devChallenges](https://devchallenges.io/). **Each project has his own repo**.
 
 Check out the table below to navigate through each project.
 
@@ -8,19 +8,9 @@ Check out the table below to navigate through each project.
 
 ### Responsive Web Design
 
-| Name                         | Repo                                                                                              |
-| ---------------------------- | ------------------------------------------------------------------------------------------------- |
-| Survey Form                  | [Link to GitHub repo](https://github.com/alexperronnet/freecodecamp-survey-form)                  |
-| Tribute Page                 | [Link to GitHub repo](https://github.com/alexperronnet/freecodecamp-tribute-page)                 |
-| Technical Documentation Page | [Link to GitHub repo](https://github.com/alexperronnet/freecodecamp-technical-documentation-page) |
-| Product Landing Page         | [Link to GitHub repo](https://github.com/alexperronnet/freecodecamp-product-landing-page)         |
-| Personal Portfolio Webpage   | [Link to GitHub repo](https://github.com/alexperronnet/freecodecamp-personal-portfolio-webpage)   |
-
-## Certifications
-
-| Path                  | Status    | Certificat                                                                                        |
-| --------------------- | --------- | ------------------------------------------------------------------------------------------------- |
-| Responsive Web Design | Completed | [Link to certificat](https://www.freecodecamp.org/certification/aperronnet/responsive-web-design) |
+| Name          | Repo                                                                                |
+| ------------- | ----------------------------------------------------------------------------------- |
+| 404 Not Found | [Link to GitHub repo](https://github.com/alexperronnet/devchallenges-404-not-found) |
 
 ### The Website
 
